@@ -17,7 +17,7 @@ REG GPIODIR_F= FB(GPIO_portF_base,0x400);
 REG GPIOAFSEL= FB(GPIO_portF_base,0x420);
 REG GPIODR8R= FB(GPIO_portF_base,0x508);
 REG GPIODEN_F= FB(GPIO_portF_base,0x51C);
-REG GPIODATA_F= FB(GPIO_portF_base,0x020);//????? WHAT IS THAT
+REG GPIODATA_F= FB(GPIO_portF_base,0x020);
 //REG GPIO_F = 0x4005D018;
 int main(void)
 {
